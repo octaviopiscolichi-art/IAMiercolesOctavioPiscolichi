@@ -10,7 +10,7 @@ nombre = st.text_input("Cual es tu nombre?")
 if st.button("Saludar!"):
     st.write(f"Hola {nombre}! Bienvenido a talento tech")
 
-MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b']
+MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile']
 
 def configurar_pagina():
     st.title("Chat IA 🤖")
@@ -96,3 +96,4 @@ if __name__ == "__main__":
 
 # Correr streamlit con la terminal de Python
 # python -m streamlit run MiChat.py (aca deben ingresar el nombre del archivo)
+
